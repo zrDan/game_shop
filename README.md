@@ -1,5 +1,6 @@
 # Game Bay
-This project is a simple representation of an e-commerce
+This project is a simple representation of an e-commerce <BR>
+[Demo](https://frontend-gambay.herokuapp.com)
 
 ## Technologies
 Project is created with: <BR> <BR>
