@@ -1,0 +1,30 @@
+.cart_container {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+}
+
+.cart_content {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.cart_content button {
+  width: 6rem;
+  height: 3rem;
+  align-self: flex-end;
+  border: none;
+  background-color: #ff8a24;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .cart_content button {
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,20 @@
+.home_container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .home_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .home_container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

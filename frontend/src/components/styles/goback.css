@@ -1,0 +1,20 @@
+.goBack {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  display: flex;
+  letter-spacing: 1.5px;
+  align-items: center;
+  font-size: medium;
+}
+
+.goBack a {
+  display: flex;
+  text-decoration: none;
+  color: #ff8a24;
+}
+
+.goBack img {
+  height: 1.5rem;
+  padding-left: 1rem;
+}

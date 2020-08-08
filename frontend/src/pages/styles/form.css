@@ -1,0 +1,95 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template: 10% 85% 5% / 20% 60% 20%;
+}
+
+.form_container {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  display: grid;
+  grid-template-rows: 20% 70% 10%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ff8a24;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.header img {
+  height: 3.8rem;
+  padding-bottom: 1rem;
+}
+
+.form_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form > button {
+  height: 12%;
+  width: 80%;
+  background-color: #ff8a24;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+}
+
+.form_group {
+  padding-bottom: 20px;
+}
+
+input {
+  height: 2rem;
+  border-radius: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #ffffff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+.signup_option {
+  text-align: center;
+}
+
+.signup_option a {
+  text-decoration: none;
+  color: #8985ff;
+  font-size: medium;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1280px) {
+  .form_group {
+    padding-bottom: 10px;
+  }
+}

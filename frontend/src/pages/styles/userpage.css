@@ -1,0 +1,94 @@
+.user_container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user_name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #d1d1d1;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.user_avatar img {
+  height: 7rem;
+}
+
+.user_info {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.user_info h2 {
+  color: #ff8a24;
+  padding-bottom: 10px;
+}
+
+.user_info p {
+  color: #d1d1d1;
+}
+
+.user_info > div {
+  padding-top: 3rem;
+}
+
+button {
+  background-color: transparent;
+  border: red 2px solid;
+  height: 3rem;
+  width: 6rem;
+  color: red;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .user_container {
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .user_name {
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .user_name img {
+    height: 10.5rem;
+    padding-bottom: 10px;
+  }
+
+  .user_info {
+    width: 50%;
+    height: 85%;
+    justify-content: center;
+  }
+
+  .user_info > div {
+    padding-top: 5rem;
+  }
+
+  .user_info h2 {
+    padding-bottom: 20px;
+  }
+
+  .user_info p {
+    font-size: 1.3rem;
+  }
+}
