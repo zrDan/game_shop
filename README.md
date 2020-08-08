@@ -1,4 +1,4 @@
-# Game Shop
+# Game Bay
 This project is a simple representation of an e-commerce
 
 ## Technologies
