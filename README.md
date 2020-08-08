@@ -17,7 +17,7 @@ $ npm install
 $ npm start
 ```
 
-Create .env in both folders and replace <text> with your customs
+Create .env in both folders
 ###### Backend
 ```
 DATABASE = mongodb://127.0.0.1:27017/<Collection Name>
